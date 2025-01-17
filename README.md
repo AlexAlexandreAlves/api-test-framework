@@ -70,8 +70,8 @@ Feel free to extend and adapt the framework to suit your testing needs:
 
 ## Contribution
 
-Contributions are welcome! If you encounter any issues or have ideas for improvements, feel free to open an issue or submit a pull request on the GitHub repository.
+Contributions are welcome! If you encounter any issues or have ideas for improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/AlexAlexandreAlves/api-test-framework).
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/AlexAlexandreAlves/api-test-framework/blob/master/LICENSE) file for more details.
