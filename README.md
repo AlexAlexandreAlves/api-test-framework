@@ -13,7 +13,7 @@ API Test Framework is a robust and flexible project built with TypeScript, Jest,
 Install the framework via npm:
 
 ```
-npm install api-test-framework
+npm install sqg-api
 ```
 
 ## Getting Started
