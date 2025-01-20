@@ -24,7 +24,14 @@ npm install sqg-api-contract
 
 -  One example demonstrates token-based authentication.
 
-### 2. Run Your Tests:
+### 2. Set up your environment
+
+- The test example are running from the base url https://test-api.k6.io/.
+- The test example are running to two endpoints open source from k6.
+- If you're using a specific type of authentication, you can set up this on authentication file, currently the project are set up to use a Bearer token auth.
+  
+
+### 3. Run Your Tests:
 
 -  Use the following command to execute the tests:
    

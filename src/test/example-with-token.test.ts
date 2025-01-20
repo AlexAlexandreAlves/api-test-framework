@@ -1,11 +1,8 @@
-import { authorizationToken } from '../auth/auth-example';
-import { routeExample } from '../routes/example-with-token-route';
+import { authorizationToken } from '../auth/authentication';
 import { EntityService } from '../services/entity-service';
 import { data } from '../data/general-data';
 
 const entity = new EntityService();
-const getWithTokenRoute = routeExample.getExampleWithToken;
-const createWithTokenRoute = routeExample.getExampleWithToken;
 let token: string;
 
 beforeAll(async () => {
@@ -14,11 +11,13 @@ beforeAll(async () => {
 
 describe('API Tests example', () => {
 
+    //@params
+    //route: string, statusCode: number, token?: string, content?: any, checkResponseMessage?: string
     test('Should get list with token', async () => {
-        await entity.getList(getWithTokenRoute, 200, token);
+        await entity.getList('/public/crocodiles/', 200, token);
     });
 
     test('Should create a new crocodile', async () => {
-        await entity.create(createWithTokenRoute, data.createRegister, 201, token, data.createRegister);
+        await entity.create('/my/crocodiles/', data.createRegister, 201, token, data.createRegister);
     });
 });
