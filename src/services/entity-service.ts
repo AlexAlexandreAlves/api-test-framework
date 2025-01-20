@@ -113,8 +113,8 @@ export class EntityService {
         expect(response.statusCode).toBe(statusCode)
 
         if (content) {
-            expect(response.body[0]).toBeDefined();
-            expect(response.body[0]).toEqual(expect.objectContaining(content));
+            expect(response.body).toBeDefined();
+            expect(response.body).toEqual(expect.objectContaining(content));
         }
 
         if (checkResponseMessage) {
