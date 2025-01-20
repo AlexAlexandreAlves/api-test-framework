@@ -1,4 +1,4 @@
-# API Test Framework
+# sqg-api Framework
 
 API Test Framework is a robust and flexible project built with TypeScript, Jest, and Supertest. It is designed to streamline API testing by focusing on contract validations and offering an extensible structure to suit your testing needs.
 
