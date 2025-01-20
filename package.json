@@ -1,5 +1,5 @@
 {
-  "name": "sqg-api",
+  "name": "sqg-api-contract",
   "version": "1.0.0",
   "scripts": {
     "test": "jest"
